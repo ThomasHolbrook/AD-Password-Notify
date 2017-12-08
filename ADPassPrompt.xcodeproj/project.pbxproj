@@ -13,6 +13,8 @@
 		E21B071D1FD846A00093667F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21B071B1FD846A00093667F /* Main.storyboard */; };
 		E21B07291FD846A00093667F /* ADPassPromptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B07281FD846A00093667F /* ADPassPromptTests.swift */; };
 		E21B07341FD846A10093667F /* ADPassPromptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B07331FD846A10093667F /* ADPassPromptUITests.swift */; };
+		E21B07421FD86D040093667F /* ChangePassword.mov in Resources */ = {isa = PBXBuildFile; fileRef = E21B07411FD86D040093667F /* ChangePassword.mov */; };
+		E21B07441FD87DF60093667F /* icon_backup_three.png in Resources */ = {isa = PBXBuildFile; fileRef = E21B07431FD87DF60093667F /* icon_backup_three.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		E21B072F1FD846A10093667F /* ADPassPromptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADPassPromptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21B07331FD846A10093667F /* ADPassPromptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADPassPromptUITests.swift; sourceTree = "<group>"; };
 		E21B07351FD846A10093667F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21B07411FD86D040093667F /* ChangePassword.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ChangePassword.mov; sourceTree = "<group>"; };
+		E21B07431FD87DF60093667F /* icon_backup_three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_backup_three.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 		E21B07091FD846A00093667F = {
 			isa = PBXGroup;
 			children = (
+				E21B07431FD87DF60093667F /* icon_backup_three.png */,
+				E21B07411FD86D040093667F /* ChangePassword.mov */,
 				E21B07141FD846A00093667F /* ADPassPrompt */,
 				E21B07271FD846A00093667F /* ADPassPromptTests */,
 				E21B07321FD846A10093667F /* ADPassPromptUITests */,
@@ -231,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E21B07441FD87DF60093667F /* icon_backup_three.png in Resources */,
+				E21B07421FD86D040093667F /* ChangePassword.mov in Resources */,
 				E21B071A1FD846A00093667F /* Assets.xcassets in Resources */,
 				E21B071D1FD846A00093667F /* Main.storyboard in Resources */,
 			);
@@ -421,6 +429,7 @@
 				DEVELOPMENT_TEAM = PEZVMB2S7T;
 				INFOPLIST_FILE = ADPassPrompt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tomholbrook.co.uk.ADPassPrompt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -437,6 +446,7 @@
 				DEVELOPMENT_TEAM = PEZVMB2S7T;
 				INFOPLIST_FILE = ADPassPrompt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.tomholbrook.co.uk.ADPassPrompt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
